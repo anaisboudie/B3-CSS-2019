@@ -1,0 +1,58 @@
+.color_white{
+  color: #FFF;
+}
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.id_image {
+    width: 10%;
+    height: auto;
+}
+
+.id_photos {
+  display: inline;
+}
+
+.contact {
+    color: #FFF;
+    display: inline;
+}
+
+.nav_list {
+    margin-left: 10vw;
+    margin-right: 2vw;
+}
+
+.nav_list ul {
+    list-style-type: none;
+
+}
+
+.nav_list a {
+    text-decoration: none;
+    color: #FFF;
+}

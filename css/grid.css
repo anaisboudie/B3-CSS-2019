@@ -1,0 +1,14 @@
+* {box-sizing: border-box;}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  grid-auto-rows: minmax(50px, auto);
+
+}
+
+.grid div img {
+  width: 100%;
+  height: auto;
+
+}
